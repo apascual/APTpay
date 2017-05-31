@@ -1,0 +1,6 @@
+use_frameworks!
+target 'APTpay_Tests' do
+  pod 'APTpay', :path => '../'
+  
+  
+end
