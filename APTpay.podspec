@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'APTpay'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Tpay polish payments library.'
   s.description      = "Pod that merely embeds the Tpay.com polish payments framework."
 
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/apascual/APTpay.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/Abel_Pascual'
 
-  s.ios.deployment_target = '8.0'
-  s.ios.vendored_frameworks = 'APTpay/Frameworks/TransferujSDK.framework'
+  s.platform            = :ios, '8.0'
+  s.vendored_frameworks = 'APTpay/Frameworks/TransferujSDK.framework'
+
 end
