@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'APTpay'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Tpay polish payments library.'
   s.description      = "Pod that merely embeds the Tpay.com polish payments framework."
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files = 'TransferujSDK.framework/Headers/*.h'
   s.requires_arc = true
   s.ios.vendored_frameworks = 'TransferujSDK.framework'
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited)', 'ENABLE_BITCODE' => 'NO' }
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited)', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.preserve_paths = 'TransferujSDK.framework'
 
 end
