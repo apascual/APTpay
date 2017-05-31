@@ -1,0 +1,16 @@
+PODS:
+  - APTpay (0.1.0)
+
+DEPENDENCIES:
+  - APTpay (from `../`)
+
+EXTERNAL SOURCES:
+  APTpay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  APTpay: cd71f444d7976c78dfe6e6076059dc14fa6c486a
+
+PODFILE CHECKSUM: 0f50a10cab2892a6203df67ae2f974736212a16d
+
+COCOAPODS: 1.2.0

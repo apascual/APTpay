@@ -1,0 +1,6 @@
+framework module TransferujSDK {
+  umbrella header "TransferujSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module APTpay {
+  umbrella header "APTpay-umbrella.h"
+
+  export *
+  module * { export * }
+}

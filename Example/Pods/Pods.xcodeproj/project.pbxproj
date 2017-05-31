@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E56211AFC2476919D8E932110F2DCC /* Pods-APTpay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 420A2D3CC8BCFEC331336375962217A0 /* Pods-APTpay_Tests-dummy.m */; };
+		4A7C08483A6C591FF61850F9AC777467 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195CE07B9B602027F7DA1930E36F10A /* ReplaceMe.m */; };
+		7C22CFAA8B87E35E62358BB2C7C0E4BE /* APTpay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FD5F68839FED3C6C8998D724BCDE0 /* APTpay-dummy.m */; };
+		81B2DE4C956867125B02D47C63F9C24E /* APTpay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2138DACA1EF41EB6926BF46A5FEDCB /* APTpay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9771587BE8625E90302FC0DEB193CBCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A9B36D688888FA6AFE53A2937004B700 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AE538F5ED0A7E3EB3D81DAF4705100CA /* Pods-APTpay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF32F9D1C089E3580E4AD7BD859BCB19 /* Pods-APTpay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9710D2EF9D73B95B038599415C532D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73C8B0A58C93237D860F833C7C9C6C11;
+			remoteInfo = APTpay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0830CEF6D90C3D57EDA573A3ADC0AA20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F62AE9453FA2E54ECA40B35296D0566 /* APTpay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APTpay.xcconfig; sourceTree = "<group>"; };
+		1881DE44F74ECB312846E6CD5991514F /* Pods-APTpay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APTpay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E3B29F27C20E62F6D8D0E40970A7422 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		237D54DEEA158E1571C5BBCE9080AAA6 /* APTpay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APTpay-prefix.pch"; sourceTree = "<group>"; };
+		40E959B7C4BC4A383AB518E43A869296 /* Pods_APTpay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APTpay_Tests.framework; path = "Pods-APTpay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		420A2D3CC8BCFEC331336375962217A0 /* Pods-APTpay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APTpay_Tests-dummy.m"; sourceTree = "<group>"; };
+		469ECA6B2FD07B551C0D1BBC67EA1FA3 /* Pods-APTpay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APTpay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EE06089E04E243B885C4A5D58CE6233 /* APTpay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = APTpay.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		781ED3FEDEEAFEE43AF3BC0DE938C9F7 /* Pods-APTpay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APTpay_Tests-resources.sh"; sourceTree = "<group>"; };
+		8195CE07B9B602027F7DA1930E36F10A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		8B8B23A4D1848E0B7DDFB8C0EE7D5802 /* APTpay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APTpay.framework; path = APTpay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2138DACA1EF41EB6926BF46A5FEDCB /* APTpay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APTpay-umbrella.h"; sourceTree = "<group>"; };
+		921B69DD4C4CA8CF8FE1DBC627BE5C46 /* Pods-APTpay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APTpay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF32F9D1C089E3580E4AD7BD859BCB19 /* Pods-APTpay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APTpay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DA89AEAAC4D3D390423A61E482DC2DD8 /* Pods-APTpay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APTpay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DFF3900A8DC34B0EC7451A3F1CCC6CE8 /* Pods-APTpay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APTpay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E07FD5F68839FED3C6C8998D724BCDE0 /* APTpay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APTpay-dummy.m"; sourceTree = "<group>"; };
+		FFDA5D3A51458D15839C5D07901B8E8F /* Pods-APTpay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-APTpay_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D11F1B5CD841ABBF704A6929D0CC0417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9771587BE8625E90302FC0DEB193CBCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDA8B7CC89A3C14B8895E8E256D951B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B36D688888FA6AFE53A2937004B700 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0127AA5BC5D7A99E76080723C376BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B8B23A4D1848E0B7DDFB8C0EE7D5802 /* APTpay.framework */,
+				40E959B7C4BC4A383AB518E43A869296 /* Pods_APTpay_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284429E029CD7DA58ECE5FB12CBEB40B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8195CE07B9B602027F7DA1930E36F10A /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4B7C85737B3D1F8D4652C12E0411EC64 /* APTpay */ = {
+			isa = PBXGroup;
+			children = (
+				F85DCD3308A57EA3C7A965EF7AE0016D /* APTpay */,
+				707B05ABBEBA6364EFA18CAABA3795F3 /* Support Files */,
+			);
+			name = APTpay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		50F7DF7C40C10CB6E58C3E724C199DA8 /* Pods-APTpay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0830CEF6D90C3D57EDA573A3ADC0AA20 /* Info.plist */,
+				FFDA5D3A51458D15839C5D07901B8E8F /* Pods-APTpay_Tests.modulemap */,
+				469ECA6B2FD07B551C0D1BBC67EA1FA3 /* Pods-APTpay_Tests-acknowledgements.markdown */,
+				1881DE44F74ECB312846E6CD5991514F /* Pods-APTpay_Tests-acknowledgements.plist */,
+				420A2D3CC8BCFEC331336375962217A0 /* Pods-APTpay_Tests-dummy.m */,
+				DFF3900A8DC34B0EC7451A3F1CCC6CE8 /* Pods-APTpay_Tests-frameworks.sh */,
+				781ED3FEDEEAFEE43AF3BC0DE938C9F7 /* Pods-APTpay_Tests-resources.sh */,
+				BF32F9D1C089E3580E4AD7BD859BCB19 /* Pods-APTpay_Tests-umbrella.h */,
+				921B69DD4C4CA8CF8FE1DBC627BE5C46 /* Pods-APTpay_Tests.debug.xcconfig */,
+				DA89AEAAC4D3D390423A61E482DC2DD8 /* Pods-APTpay_Tests.release.xcconfig */,
+			);
+			name = "Pods-APTpay_Tests";
+			path = "Target Support Files/Pods-APTpay_Tests";
+			sourceTree = "<group>";
+		};
+		707B05ABBEBA6364EFA18CAABA3795F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EE06089E04E243B885C4A5D58CE6233 /* APTpay.modulemap */,
+				0F62AE9453FA2E54ECA40B35296D0566 /* APTpay.xcconfig */,
+				E07FD5F68839FED3C6C8998D724BCDE0 /* APTpay-dummy.m */,
+				237D54DEEA158E1571C5BBCE9080AAA6 /* APTpay-prefix.pch */,
+				8D2138DACA1EF41EB6926BF46A5FEDCB /* APTpay-umbrella.h */,
+				1E3B29F27C20E62F6D8D0E40970A7422 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/APTpay";
+			sourceTree = "<group>";
+		};
+		72F91A8D60B955DBBF9051AE4EAC42FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F7DF7C40C10CB6E58C3E724C199DA8 /* Pods-APTpay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EB0E84AF08F7FE9184F94AB458489EF5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0F0127AA5BC5D7A99E76080723C376BF /* Products */,
+				72F91A8D60B955DBBF9051AE4EAC42FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB0E84AF08F7FE9184F94AB458489EF5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B7C85737B3D1F8D4652C12E0411EC64 /* APTpay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F85DCD3308A57EA3C7A965EF7AE0016D /* APTpay */ = {
+			isa = PBXGroup;
+			children = (
+				284429E029CD7DA58ECE5FB12CBEB40B /* Classes */,
+			);
+			name = APTpay;
+			path = APTpay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B5DC720A4F0388FA694EEEFCF161F2C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B2DE4C956867125B02D47C63F9C24E /* APTpay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA48127894380E5D71A1FF531525A4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE538F5ED0A7E3EB3D81DAF4705100CA /* Pods-APTpay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		73C8B0A58C93237D860F833C7C9C6C11 /* APTpay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613F416232108913201992C16239BEFA /* Build configuration list for PBXNativeTarget "APTpay" */;
+			buildPhases = (
+				1C69B9CBE5ED21AC7FFBC8616C40C37C /* Sources */,
+				D11F1B5CD841ABBF704A6929D0CC0417 /* Frameworks */,
+				B5DC720A4F0388FA694EEEFCF161F2C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APTpay;
+			productName = APTpay;
+			productReference = 8B8B23A4D1848E0B7DDFB8C0EE7D5802 /* APTpay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88A34318832317FCF5F06EE885D9A95F /* Pods-APTpay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90543630F3FD29CE20760FC46DC3343 /* Build configuration list for PBXNativeTarget "Pods-APTpay_Tests" */;
+			buildPhases = (
+				A2C3530A3B67BBF9A485ABEF5080381A /* Sources */,
+				DCDA8B7CC89A3C14B8895E8E256D951B /* Frameworks */,
+				CBA48127894380E5D71A1FF531525A4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C877F7C669D8AA813BAFCCD4DEF6F35 /* PBXTargetDependency */,
+			);
+			name = "Pods-APTpay_Tests";
+			productName = "Pods-APTpay_Tests";
+			productReference = 40E959B7C4BC4A383AB518E43A869296 /* Pods_APTpay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0F0127AA5BC5D7A99E76080723C376BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73C8B0A58C93237D860F833C7C9C6C11 /* APTpay */,
+				88A34318832317FCF5F06EE885D9A95F /* Pods-APTpay_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C69B9CBE5ED21AC7FFBC8616C40C37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C22CFAA8B87E35E62358BB2C7C0E4BE /* APTpay-dummy.m in Sources */,
+				4A7C08483A6C591FF61850F9AC777467 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C3530A3B67BBF9A485ABEF5080381A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E56211AFC2476919D8E932110F2DCC /* Pods-APTpay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C877F7C669D8AA813BAFCCD4DEF6F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APTpay;
+			target = 73C8B0A58C93237D860F833C7C9C6C11 /* APTpay */;
+			targetProxy = 9710D2EF9D73B95B038599415C532D76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		230C0F9EAED952F09961322044747720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F62AE9453FA2E54ECA40B35296D0566 /* APTpay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APTpay/APTpay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APTpay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APTpay/APTpay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = APTpay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9922087F4C2FD3C7807355B9A730A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F62AE9453FA2E54ECA40B35296D0566 /* APTpay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APTpay/APTpay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APTpay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APTpay/APTpay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = APTpay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C87ABFF7E1FED0A196BF09E51D9CFAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921B69DD4C4CA8CF8FE1DBC627BE5C46 /* Pods-APTpay_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-APTpay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APTpay_Tests/Pods-APTpay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_APTpay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D21AD5153697B7072CE37F36787C43C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA89AEAAC4D3D390423A61E482DC2DD8 /* Pods-APTpay_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-APTpay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APTpay_Tests/Pods-APTpay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_APTpay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613F416232108913201992C16239BEFA /* Build configuration list for PBXNativeTarget "APTpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230C0F9EAED952F09961322044747720 /* Debug */,
+				AA9922087F4C2FD3C7807355B9A730A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90543630F3FD29CE20760FC46DC3343 /* Build configuration list for PBXNativeTarget "Pods-APTpay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87ABFF7E1FED0A196BF09E51D9CFAF8 /* Debug */,
+				D21AD5153697B7072CE37F36787C43C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
