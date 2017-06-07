@@ -2,6 +2,7 @@
 
 @interface PLTransferujPayment : NSObject <NSCoding>
 
+@property (nonatomic, strong) NSString *md5;
 @property (nonatomic, strong) NSString *mPaymentLink;
 @property (nonatomic, strong) NSString *mId;
 @property (nonatomic, strong) NSString *mAmount;
@@ -24,6 +25,7 @@
 @property (nonatomic, strong) NSString *mClientCode;
 @property (nonatomic, strong) NSString *mClientCountry;
 @property (nonatomic, strong) NSString *mClientPhone;
+
 
 - (id)initWithCoder:(NSCoder *)coder;
 - (void)encodeWithCoder:(NSCoder *)coder;
