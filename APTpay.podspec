@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'APTpay'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Tpay polish payments library.'
   s.description      = "Pod that merely embeds the Tpay.com polish payments framework."
 
